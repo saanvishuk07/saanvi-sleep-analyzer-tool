@@ -3,9 +3,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 from datetime import datetime
 
-FILE_NAME = "sleep_data.csv"
+FILE_NAME = "sleepdata.csv"
 #function to create sample data
-def create_sample_sleep_data(filename=FILE_NAME, days =30):
+def create_samplesleepdata(filename=FILE_NAME, days =30):
   #this will generate a sample CSV file it id does not exists"
   try:
     pd.read_csv(filename)
@@ -27,7 +27,7 @@ def create_sample_sleep_data(filename=FILE_NAME, days =30):
   data.to_csv(filename, index=False)
   print(f"Sample data created with {days} days of records.")
 try:
-  create_sample_sleep_data(FILE_NAME)
+  create_samplesleepdata(FILE_NAME)
   df = pd.read_csv(FILE_NAME)
   if "Hours" not in df.columns:
     raise ValueError("CSV must contain a column named 'Hours'.")
