@@ -1,11 +1,11 @@
 # saanvi-sleep-analyzer-tool
 PROJECT TITLE :- Sleep Analyzer Tool using Python
 
-DESCRIPTION :-
+#DESCRIPTION :-
 The Sleep Analyzer tool is a Python program that analyzes and visualizes daily sleep duration data from a CSV file. It calculates key sleep statistics like average, max, min hours slept, and evaluates sleep consistency and quality. This code also gives us plot of the DISTRIBUTION OF SLEEP HOURS  & DAILY SLEEP HOURS TREND.
 
 
-FEATURES :-1. It generates sample sleep data if no data file is found.
+#FEATURES :-1. It generates sample sleep data if no data file is found.
 
 2. It reads sleep data from a CSV file with date and hours slept.
   
@@ -17,7 +17,7 @@ FEATURES :-1. It generates sample sleep data if no data file is found.
 
 
 
-TECHNOLOGIES &  TOOLS USED :-
+#TECHNOLOGIES &  TOOLS USED :-
 1. Python 3
 
 2. Pandas for data manipulation and CSV handling
@@ -30,7 +30,7 @@ TECHNOLOGIES &  TOOLS USED :-
 
 
 
-STEPS TO INSTAL & RUN THE PROJECT :-
+#STEPS TO INSTAL & RUN THE PROJECT :-
 
 1. Make sure Python3 is installed on your system
 2. Install all the req library if not alr avlable
@@ -46,7 +46,7 @@ This code is also capable to create a sample csv file if it does not exist.
 
 
 
-INSTRUCTIONS FOR TESTING : -
+#INSTRUCTIONS FOR TESTING : -
 1. Delete or rename the sleep_data.csv file to test the automatic sample data generation.
 
 2. Modify sleep_data.csv to add your own sleep records and rerun the analysis.
