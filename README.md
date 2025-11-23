@@ -1,5 +1,5 @@
 # saanvi-sleep-analyzer-tool
-PROJECT TITLE :- Sleep Analyzer Tool using Python
+# PROJECT TITLE :- Sleep Analyzer Tool using Python
 
 # DESCRIPTION :-
 The Sleep Analyzer tool is a Python program that analyzes and visualizes daily sleep duration data from a CSV file. It calculates key sleep statistics like average, max, min hours slept, and evaluates sleep consistency and quality. This code also gives us plot of the DISTRIBUTION OF SLEEP HOURS  & DAILY SLEEP HOURS TREND.
