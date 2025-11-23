@@ -53,13 +53,13 @@ consistency_score = round(10-min(10, (deviations.mean() *2)),2)
 
 #SUMMARY
 if 7<= avg_sleep <= 9:
-  qaulity = "Healthy Sleep Duration"
+  quality = "Healthy Sleep Duration"
 elif avg_sleep <6:
-  qaulity = "Sleep Derived"
+  quality = "Sleep Derived"
 elif avg_sleep >9:
-  qaulity = "Oversleeping"
+  quality = "Oversleeping"
 else:
-  qaulity = "Slightly Below Ideal "
+  quality = "Slightly Below Ideal "
 
 print("\n----Sleep Pattern Analysis ----")
 print(f"Total Records: {len(hours)}")
