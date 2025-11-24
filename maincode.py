@@ -4,9 +4,9 @@ import numpy as np
 from datetime import datetime
 
 FILE_NAME = "sleepdata.csv"
-#function to create sample data
+#funct to create sample data
 def create_samplesleepdata(filename=FILE_NAME, days =30):
-  #this will generate a sample CSV file it id does not exists"
+  #this will generate a sample CSV file  id does not exists"
   try:
     pd.read_csv(filename)
     return
